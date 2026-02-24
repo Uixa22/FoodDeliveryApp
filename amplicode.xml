@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AmplicodePersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="FoodDeliveryApp.order-service.main" name="Default">
+        <packages>
+          <package value="koz.dev.orderservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="FoodDeliveryApp.payment-service.main" name="Default">
+        <packages>
+          <package value="koz.dev.paymentservice" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="FoodDeliveryApp.delivery-service.main" name="Default">
+        <packages>
+          <package value="koz.dev.deliveryservice" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>

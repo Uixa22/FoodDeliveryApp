@@ -1,0 +1,13 @@
+package koz.dev.commonlibs.http.payment;
+
+
+
+import lombok.Builder;
+
+import java.math.BigDecimal;
+@Builder
+public record CreatePaymentRequestDto(
+        Long orderId,
+        PaymentMethod paymentMethod,
+        BigDecimal amount
+) {}
